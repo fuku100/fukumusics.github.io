@@ -92,6 +92,18 @@ main {
     transform: translateX(0px);
   }
 
+  20%{
+    transform: translateX(0px);
+  }
+
+  24%{
+    transform: translateX(60px);
+  }
+
+  28%{
+    transform: translateX(0px);
+  }
+
   50%{
     transform: translateX(0px);
   }
@@ -213,7 +225,7 @@ h3 span i{
   padding: .65rem;
   background-color: rgb(250, 180, 152);
   border-radius: 10px;
-  box-shadow: 0 0 6px #fff;
+  box-shadow: 0 0 6px rgba(121, 121, 121, 0.24);
   display: inline-block;
   list-style: none;
   position: relative;
@@ -232,6 +244,7 @@ h3 span i{
 .music {
   display: flex;
   flex-direction: column;
+  width: 400px;
 }
 
 .item img {
@@ -459,20 +472,17 @@ aside .self-introduction {
 
   main .download {
     position: static;
-    top: 433px;
-    left: 0;
     width: 53%;
-    margin: 0 auto;
+    margin: .3rem auto 1rem;
     text-align: center;
-    font-size: .875rem;
     writing-mode: horizontal-tb;
   }
-  
+
   /* aside------------------------------------------------- */
 
   aside {
     width: 100%;
-    margin: 2rem auto;
+    margin: 4rem auto;
   }
 
   aside h2 {
