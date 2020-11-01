@@ -70,7 +70,7 @@ main {
   position: absolute;
   left: 190px;
   animation: anim 15s infinite normal;
-  animation-delay: 2s;
+  animation-delay: 1s;
   z-index: 3;
 }
 
@@ -84,23 +84,24 @@ main {
     transform: translateX(0px);
   }
 
+  4%{
+    transform: translateX(60px);
+  }
+
   8%{
-    transform: translateX(100px);
-  }
-
-  16%{
     transform: translateX(0px);
   }
 
-  60%{
+  50%{
     transform: translateX(0px);
   }
 
-  80%{
-    transform: translateX(0px);
+  54%{
+    transform: translateX(60px);
   }
-  88%{
-    transform: translateX(100px);
+
+  58%{
+    transform: translateX(0px);
   }
 
   100% {
@@ -434,7 +435,7 @@ aside .self-introduction {
 
   main .download {
     top: 50px;
-    right: 66px;
+    right: 26px;
   }
 
   aside {
@@ -450,3 +451,4 @@ aside .self-introduction {
     width: 600px;
   }
 }
+
