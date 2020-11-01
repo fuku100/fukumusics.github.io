@@ -465,6 +465,21 @@ aside .self-introduction {
     width: 100%;
   }
 
+  .cat h2 {
+    font-size: 1.45rem;
+  }
+
+
+  .item p {
+    font-size: 14px;
+    padding: .6rem 1.65rem;
+    padding-top: 10px;
+  }
+
+  .cat p {
+    font-size: 2rem;
+  }
+
   main .download {
     top: 50px;
     right: 26px;
@@ -472,7 +487,7 @@ aside .self-introduction {
 
   main .download {
     position: static;
-    width: 53%;
+    width: 55%;
     margin: .3rem auto 1rem;
     text-align: center;
     writing-mode: horizontal-tb;
