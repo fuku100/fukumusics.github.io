@@ -395,7 +395,7 @@ aside .self-introduction {
   }
 
   aside .sns {
-    margin-top: 1rem;
+    margin: 1rem 0;
     display: flex;
     justify-content: space-between;
     width: 412px;
@@ -406,31 +406,50 @@ aside .self-introduction {
   }
 }
 
+/* スマホサイズ------------------------------------------------- */
+
 @media screen and (max-width: 559px) {
   body {
-    width: 600px;
+    width: 100%;
   }
 
   header {
-    width: 600px;
+    width: 100%;
     margin: 1rem auto;
-  }
-  .three{
-    left: 35px;
+    font-size: 1.2rem;
+    padding-left: 37px;
   }
 
+  .three{
+    top: -40px;
+    left: -6px;
+  }
+
+  .other {
+    position: absolute;
+    top: 66px;
+    right: 32px;
+    font-size: 2rem;
+  }
+
+  header h1:before {
+    display: none;
+  }
+
+/* main------------------------------------------------- */
+
   main {
-    width: 600px;
+    width: 100%;
     margin: 2rem auto;
   }
 
   .box{
     top: -10px;
-    left: 60px;
+    left: 14px;
   }
 
   .scroll-list{
-    width: 77%;
+    width: 100%;
   }
 
   main .download {
@@ -438,17 +457,47 @@ aside .self-introduction {
     right: 26px;
   }
 
+  main .download {
+    position: static;
+    top: 433px;
+    left: 0;
+    width: 53%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: .875rem;
+    writing-mode: horizontal-tb;
+  }
+  
+  /* aside------------------------------------------------- */
+
   aside {
-    width: 600px;
+    width: 100%;
     margin: 2rem auto;
   }
 
   aside h2 {
-    left: 275px;
+    left: 44%;
+  }
+
+  aside h3 span {
+    position: absolute;
+    top: 53px;
+    left: 70px;
+  }
+
+  aside p {
+    margin: 1rem auto;
+    width: 86%;
   }
 
   aside .self-introduction {
-    width: 600px;
+    width: 100%;
+  }
+
+  aside .sns {
+    margin: 1rem 0 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
 }
-
