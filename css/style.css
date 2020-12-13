@@ -69,7 +69,7 @@ main {
 .box{
   position: absolute;
   left: 190px;
-  animation: anim 15s infinite normal;
+  animation: anim 15s 4 normal;
   animation-delay: 1s;
   z-index: 3;
 }
